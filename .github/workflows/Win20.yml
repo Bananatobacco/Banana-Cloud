@@ -2,7 +2,8 @@
 
 name: Win20
 
-on: workflow_dispatch:
+on: 
+  workflow_dispatch:
     inputs:
       ngrok:
         description: 'Enter Ngrok tunnel key'
